@@ -7,16 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DepartmentStore.Common\DepartmentStore.Common.csproj" />
-    <ProjectReference Include="..\DepartmentStore.Data.EF\DepartmentStore.Data.EF.csproj" />
-    <ProjectReference Include="..\DepartmentStore.Data\DepartmentStore.Data.csproj" />
-    <ProjectReference Include="..\DepartmentStore.Infrastructure\DepartmentStore.Infrastructure.csproj" />
-    <ProjectReference Include="..\DepartmentStore.Service\DepartmentStore.Service.csproj" />
-    <ProjectReference Include="..\DepartmentStore.Utilities\DepartmentStore.Utilities.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.1" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>

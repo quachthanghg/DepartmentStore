@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Web", "DepartmentStore.Web\DepartmentStore.Web.csproj", "{08FF05A9-7765-4635-9758-ECB1E5046E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Web", "DepartmentStore.Web\DepartmentStore.Web.csproj", "{08FF05A9-7765-4635-9758-ECB1E5046E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Service", "DepartmentStore.Service\DepartmentStore.Service.csproj", "{D4C441E8-EA92-45A4-B400-ACC33AAEF9DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Service", "DepartmentStore.Service\DepartmentStore.Service.csproj", "{D4C441E8-EA92-45A4-B400-ACC33AAEF9DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Infrastructure", "DepartmentStore.Infrastructure\DepartmentStore.Infrastructure.csproj", "{96B3996C-B1F2-40C7-8183-FBC7E12E3EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Infrastructure", "DepartmentStore.Infrastructure\DepartmentStore.Infrastructure.csproj", "{96B3996C-B1F2-40C7-8183-FBC7E12E3EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Utilities", "DepartmentStore.Utilities\DepartmentStore.Utilities.csproj", "{3D8851A3-09CE-493B-B3AD-89FEE46A9FF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Utilities", "DepartmentStore.Utilities\DepartmentStore.Utilities.csproj", "{3D8851A3-09CE-493B-B3AD-89FEE46A9FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Data", "DepartmentStore.Data\DepartmentStore.Data.csproj", "{47078D41-1D16-4977-9D1E-89FF52AE9909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Data", "DepartmentStore.Data\DepartmentStore.Data.csproj", "{47078D41-1D16-4977-9D1E-89FF52AE9909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Common", "DepartmentStore.Common\DepartmentStore.Common.csproj", "{21AE629E-CA8A-4B2F-AB88-06533ACC6CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Common", "DepartmentStore.Common\DepartmentStore.Common.csproj", "{21AE629E-CA8A-4B2F-AB88-06533ACC6CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Data.EF", "DepartmentStore.Data.EF\DepartmentStore.Data.EF.csproj", "{E7A67DA4-86EB-425D-9FF5-8BFDEF35C8B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentStore.Data.EF", "DepartmentStore.Data.EF\DepartmentStore.Data.EF.csproj", "{E7A67DA4-86EB-425D-9FF5-8BFDEF35C8B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentStore.Resources", "DepartmentStore.Resources\DepartmentStore.Resources.csproj", "{6F1FF139-E5DF-4405-B6DA-2475FB5B6D8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E7A67DA4-86EB-425D-9FF5-8BFDEF35C8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A67DA4-86EB-425D-9FF5-8BFDEF35C8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A67DA4-86EB-425D-9FF5-8BFDEF35C8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1FF139-E5DF-4405-B6DA-2475FB5B6D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1FF139-E5DF-4405-B6DA-2475FB5B6D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1FF139-E5DF-4405-B6DA-2475FB5B6D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1FF139-E5DF-4405-B6DA-2475FB5B6D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
